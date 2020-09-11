@@ -3,7 +3,7 @@ import turtle
 # screen design
 ds = turtle.Screen()
 ds.title("The classic Ping Pong")
-ds.bgcolor("white")
+ds.bgcolor("yellow")
 ds.setup(width=800, height=600)
 ds.tracer(0)
 
@@ -36,8 +36,8 @@ ppball.shape("circle")
 ppball.color("black")
 ppball.up()
 ppball.goto(0, 0)
-ppball.xaxis = 0.2
-ppball.yaxis = -0.2
+ppball.xaxis = 0.3
+ppball.yaxis = -0.3
 
 # score board
 sb = turtle.Turtle()
